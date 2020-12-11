@@ -36,12 +36,13 @@ keys: Seq[Int] = WrappedArray(0, 4)
 */
 
 val reducedDataFrame = largeDf.filter(col("id").isin(keys:_*))
-res.show()
+reducedDataFrame.show()
 /*
 +---+-----+
-| id|right|
+| id|value|
 +---+-----+
 |  0| zero|
+|  4| four|
 +---+-----+
 */
 
