@@ -34,7 +34,7 @@ In addition, using checkpointing will help you to debug the data pipeline becaus
 
 ## Which storage level to choose
 
-By dafault Spark will **cache\(\)** data using **MEMORY\_ONLY** level,  
+By default Spark will **cache\(\)** data using **MEMORY\_ONLY** level,  
 **MEMORY\_AND\_DISK\_SER** can help cut down on GC and avoid expensive recomputations.
 
 * MEMORY\_ONLY
