@@ -28,25 +28,19 @@
 
 ## Storage
 
----
-
-* [Use the Best Data Format](use-the-best-data-format.md)
-* [Cache Judiciously and use Checkpointing](which_storage_level_to_choose.md)
+* [Use the Best Data Format](storage/use-the-best-data-format.md)
+* [Cache Judiciously and use Checkpointing](storage/which_storage_level_to_choose.md)
 
 ## Parallelism
 
----
-
-* [Use the right level of parallelism](untitled.md)
-* [How to estimate the size of a Dataset](sparksqlshufflepartitions_draft.md)
-* [How to estimate the number of partitions, executor's and driver's params \(YARN Cluster Mode\)](how-to-estimate-the-number-of-partitions-executors-and-drivers-params-yarn-cluster-mode.md)
+* [Use the right level of parallelism](parallelism/untitled.md)
+* [How to estimate the size of a Dataset](parallelism/sparksqlshufflepartitions_draft.md)
+* [How to estimate the number of partitions, executor's and driver's params \(YARN Cluster Mode\)](parallelism/how-to-estimate-the-number-of-partitions-executors-and-drivers-params-yarn-cluster-mode.md)
 
 ## Serialization and GC
 
----
-
-* [Serialization](serialization.md)
-* [Tuning Java Garbage Collection](tuning-java-garbage-collection.md)
+* [Tuning Java Garbage Collection](serialization-and-gc/tuning-java-garbage-collection.md)
+* [Serialization](serialization-and-gc/serialization.md)
 
 ## References <a id="references-1"></a>
 

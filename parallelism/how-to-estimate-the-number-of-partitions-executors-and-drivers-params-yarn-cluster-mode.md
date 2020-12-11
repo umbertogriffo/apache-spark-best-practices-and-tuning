@@ -58,7 +58,7 @@ I have 3 Worker nodes and one Application Master Node each with **16 vCPUs, 52 G
 
 See in the diagram how params are estimated:
 
-![](.gitbook/assets/UseTheRightLevelOfParallelism.png)
+![](../.gitbook/assets/UseTheRightLevelOfParallelism.png)
 
 I have to process a dataset that has 10.000.000 of rows and 100 double variables.
 
